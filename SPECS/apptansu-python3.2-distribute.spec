@@ -13,6 +13,7 @@ BuildRequires: apptansu-python3.2
 # possibly due to it being the first one found when resolving shebangs with
 # /usr/bin/env python
 AutoReq: no
+Requires: apptansu-python3.2
 
 %define _prefix /usr/lib/apptansu
 
