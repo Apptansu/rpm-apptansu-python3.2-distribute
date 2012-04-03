@@ -9,10 +9,8 @@ Provides: apptansu-python3.2-distribute
 Source: distribute-%{version}.tgz
 
 BuildRequires: apptansu-python3.2
-# Without AutoReq: no, the system python gets picked up as a dependency
-# possibly due to it being the first one found when resolving shebangs with
-# /usr/bin/env python
 AutoReq: no
+AutoProv: no
 Requires: apptansu-python3.2
 
 %define _prefix /usr/lib/apptansu
